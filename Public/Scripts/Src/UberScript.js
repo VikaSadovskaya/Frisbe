@@ -404,12 +404,12 @@ var TitleScreen = /** @class */ (function (_super) {
                 if (playerIdx > 0 && Autoplay.enabled) {
                     triggerPlayButton()
 					
-                }*/
+                }
                 
                 if (!global.REPOSITORY.isFirstGame && Autoplay.enabled) {
                     triggerPlayButton()
 					
-                }
+                }*/
 				
             }, 0.1)
             openBackCamera()

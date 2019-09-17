@@ -4,6 +4,7 @@
 //@input Component.SpriteVisual second_face
 //@input SceneObject first_screen
 //@input SceneObject general_screen
+//@input SceneObject snapButton
 //@input SceneObject sphere
 // @input SceneObject L1
 // @input SceneObject L2
@@ -23,9 +24,8 @@ var start = script.animFrisbee.getLayer("start");
 var catch1 = script.animFrisbee.getLayer("catch1");
 var catchTrue = script.animFrisbee.getLayer("catchTrue");
 var catchFalse = script.animFrisbee.getLayer("catchFalse");  
-
 global.touchSystem.touchBlocking = true;
-global.touchSystem.enableTouchBlockingException("TouchTypeDoubleTap", false);
+//global.touchSystem.enableTouchBlockingException("TouchTypeDoubleTap", true);
 
 
 global.startGame = function (activeSession) 
@@ -37,9 +37,16 @@ global.startGame = function (activeSession)
     
     function resultScreen()
     {
+        global.touchSystem.touchBlocking = false
+        global.clientInterfaceSystem.perform(ClientInterfaceElement.ToggleCameraButton, ClientInterfaceAction.Trigger)
+        
+        script.snapButton.enabled = true
+        
+        global.touchSystem.touchBlocking = true
         script.first_face.enabled = true
         if(global.REPOSITORY.isFirstGame())
         {
+            
             script.first_screen.enabled = true   
             script.firstScore.enabled = true
         }
@@ -53,16 +60,19 @@ global.startGame = function (activeSession)
             script.secondScore2.enabled = true
             script.secondScore2.text = ""+global.REPOSITORY.getPreviousPlayerThrowScore()
         }
-       
-        var texture_copy = script.texture.copyFrame()
-        global.REPOSITORY.savePlayerPhotoAsset(texture_copy)
+        
+        function tap_snap()
+        {
+            var texture_copy = script.texture.copyFrame()
+            global.REPOSITORY.savePlayerPhotoAsset(texture_copy)
+            global.snapRecordingSystem.captureSnapImage() 
+            global.REPOSITORY.takeSnap()
+        }
+        global.scBehaviorSystem.addCustomTriggerResponse("tap_snap", tap_snap);
+        
 
     }
-    if(global.REPOSITORY.store.getBool("finish") === true)
-    {
-        global.REPOSITORY.activeSession.getCurrentPlayerStore(global.REPOSITORY.currentPlayerIndex).clear()
-        global.REPOSITORY.activeSession.store.clear()
-    }
+    
     if(global.REPOSITORY.isStartWithPlate())
     {
         script.animFrisbee.setWeight("Idle", 1.0);
@@ -179,14 +189,11 @@ global.startGame = function (activeSession)
   
     function end_start(){
         script.animFrisbee.stop("Idle");
-        global.clientInterfaceSystem.perform(ClientInterfaceElement.ToggleCameraButton, ClientInterfaceAction.Trigger)
-        global.clientInterfaceSystem.perform(ClientInterfaceElement.SnapButton, ClientInterfaceAction.Show)
+        
         
         if(Math.abs(global.REPOSITORY.getCurrentPlayerThrowScore - global.REPOSITORY.getPreviousPlayerThrowScore) == 3)
         {
-            global.REPOSITORY.store.putBool("finish",true)
-            global.REPOSITORY.activeSession.getCurrentPlayerStore(global.REPOSITORY.currentPlayerIndex).clear()
-            global.REPOSITORY.activeSession.getCurrentPlayerStore(global.REPOSITORY.previousPlayerIndex).clear()
+            global.REPOSITORY.final()
             resultScreen()
             script.winner.enabled = true
         }else
@@ -215,23 +222,19 @@ global.startGame = function (activeSession)
     
     function catch_True()
     {
-        global.clientInterfaceSystem.perform(ClientInterfaceElement.ToggleCameraButton, ClientInterfaceAction.Trigger)
-        global.clientInterfaceSystem.perform(ClientInterfaceElement.SnapButton, ClientInterfaceAction.Show)
         global.REPOSITORY.increaseCatchScore()
         resultScreen()
         
     }
-    global.scBehaviorSystem.addCustomTriggerResponse("catchTrue", catch_True);
+    global.scBehaviorSystem.addCustomTriggerResponse("end_catchTrue", catch_True);
     
     function catch_False()
     {
-        global.clientInterfaceSystem.perform(ClientInterfaceElement.ToggleCameraButton, ClientInterfaceAction.Trigger)
-        global.clientInterfaceSystem.perform(ClientInterfaceElement.SnapButton, ClientInterfaceAction.Show)
         global.REPOSITORY.increaseFailScore()
         resultScreen()
         
     }
-    global.scBehaviorSystem.addCustomTriggerResponse("catchFalse", catch_False);
+    global.scBehaviorSystem.addCustomTriggerResponse("end_catchFalse", catch_False);
     
 }
       

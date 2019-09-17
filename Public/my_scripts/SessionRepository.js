@@ -6,6 +6,7 @@ var SessionRepository = /** @class */ (function () {
     var ASSET_KEY = "photoAsset";
     var THROW_SCREAN_AREA = "throwScreenArea";
     var PREVIOUS_PLAYER_KEY = "previousPlayer";
+    var FINISH = "finish"
 
     var _isStartWithPlate
     var store
@@ -85,6 +86,9 @@ var SessionRepository = /** @class */ (function () {
         store.putBool(PREVIOUS_FAIL_KEY, true);
         return failScore;
     }
+    SessionRepository.prototype.final = function(){
+        activeSession.shouldAttachToSnap = true   
+    }
     
     SessionRepository.prototype.saveThrowArea = function (areaIndex) {
         store.putInt(THROW_SCREAN_AREA ,areaIndex);  
@@ -93,19 +97,20 @@ var SessionRepository = /** @class */ (function () {
         return store.getInt(THROW_SCREAN_AREA);  
     }
     
+    
     SessionRepository.prototype.savePlayerPhotoAsset = function (asset) {
         activeSession.saveAsset(asset, ASSET_KEY);
     }
     SessionRepository.prototype.getPlayerPhotoAsset = function () {
-        /*if(activeSession.hasAsset(ASSET_KEY)){
+        if(activeSession.hasAsset(ASSET_KEY)){
             return activeSession.getAsset(ASSET_KEY);
-        }*/
-		if(activeSession.getPlayerStore(activeSession.getGlobalStore().getInt(PREVIOUS_PLAYER_KEY)).hasAsset(ASSET_KEY)){
-            return activeSession.getPlayerStore(activeSession.getGlobalStore().getInt(PREVIOUS_PLAYER_KEY)).getAsset(ASSET_KEY);
         }
         else{
             return null;
         }
+    }
+    SessionRepository.prototype.takeSnap = function() {
+        global.snapRecordingSystem.captureSnapImage() 
     }
     return SessionRepository
 }())

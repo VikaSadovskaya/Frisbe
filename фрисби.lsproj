@@ -3,7 +3,7 @@
     "document_id": "-7AehSwJ3ITEozqh-r0l",
     "original_document_id": "-emgiKlBTWicLGDfCTy6",
     "version": "2",
-    "lastChanged": "1568707302054",
+    "lastChanged": "1568718303915",
     "preview": "icon.png",
     "isReadOnly": "false",
     "studioVersion": {
@@ -93,6 +93,14 @@
                     [
                         "Meshes",
                         "circle_plate"
+                    ],
+                    [
+                        "Meshes",
+                        "image"
+                    ],
+                    [
+                        "Meshes",
+                        "image (1)"
                     ],
                     [
                         "Models"
@@ -976,9 +984,6 @@
                         "Resources",
                         "TitleScreen",
                         "unlock_menu_bg"
-                    ],
-                    [
-                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -4381,6 +4386,84 @@
                     "flags": "2",
                     "type": "1",
                     "subtype": "8"
+                },
+                {
+                    "resId": "1324",
+                    "uid": "1568713826326239:881192",
+                    "name": "\/Resources\/Resource1324.png",
+                    "sourceFilePath": "C:\/Users\/admin\/Downloads\/image.png",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "1326",
+                    "uid": "1568713840890679:891034",
+                    "name": "\/Resources\/Resource1326",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "\/Users\/steve.marton\/Snapchat\/Dev\/Studio3D\/Resources\/Studio3DResources.bundle\/shaders\/flat.glsl"
+                        ]
+                    },
+                    "flags": "3",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "1327",
+                    "uid": "1568713965197119:901042",
+                    "name": "\/Resources\/Resource1327.png",
+                    "sourceFilePath": "C:\/Users\/admin\/Downloads\/image (1).png",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "1328",
+                    "uid": "1568716699715214:1473350",
+                    "name": "\/Resources\/Resource1328",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            ""
+                        ]
+                    },
+                    "flags": "3",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "1329",
+                    "uid": "1568716699720789:1473360",
+                    "name": "\/Resources\/Resource1329.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "3",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "1330",
+                    "uid": "1568716699724918:1473370",
+                    "name": "\/Resources\/Resource1330.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "3",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "1331",
+                    "uid": "1568716699728629:1473380",
+                    "name": "\/Resources\/Resource1331.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "3",
+                    "type": "1",
+                    "subtype": "0"
                 }
             ]
         },
@@ -4478,7 +4561,9 @@
                 "82": "1568624134695286:791156",
                 "83": "1568627098226581:1269078",
                 "84": "1568627098226945:1269112",
-                "85": "1568638931649430:399486"
+                "85": "1568638931649430:399486",
+                "86": "1568713840769577:891019",
+                "87": "1568716699649022:1473346"
             }
         },
         "LayerComponent": {
@@ -4714,6 +4799,16 @@
                             {
                                 "name": "circle_plate",
                                 "resourceId": "1289",
+                                "extension": "png"
+                            },
+                            {
+                                "name": "image",
+                                "resourceId": "1324",
+                                "extension": "png"
+                            },
+                            {
+                                "name": "image (1)",
+                                "resourceId": "1327",
                                 "extension": "png"
                             }
                         ]
@@ -6330,6 +6425,14 @@
                 {
                     "id": "1311",
                     "path": "my_scripts\/GlobalRepository.js"
+                },
+                {
+                    "id": "1324",
+                    "path": "Meshes\/image.png"
+                },
+                {
+                    "id": "1327",
+                    "path": "Meshes\/image (1).png"
                 }
             ]
         },
