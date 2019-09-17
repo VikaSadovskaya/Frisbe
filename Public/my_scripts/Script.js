@@ -30,6 +30,7 @@ global.touchSystem.touchBlocking = true;
 
 global.startGame = function (activeSession) 
 {
+    var isCatched = false
     global.checkLine = 0
     global.allowTap = false;
     var move = false
@@ -66,7 +67,6 @@ global.startGame = function (activeSession)
             var texture_copy = script.texture.copyFrame()
             global.REPOSITORY.savePlayerPhotoAsset(texture_copy)
             global.snapRecordingSystem.captureSnapImage() 
-            global.REPOSITORY.takeSnap()
         }
         global.scBehaviorSystem.addCustomTriggerResponse("tap_snap", tap_snap);
         
@@ -137,7 +137,7 @@ global.startGame = function (activeSession)
     var event = script.createEvent("TouchMoveEvent");
     event.bind(function(eventData)
     {
-        if(global.REPOSITORY.isStartWithPlate())
+        if(global.REPOSITORY.isStartWithPlate() || isCatched)
         {
             move = true
         }
@@ -146,7 +146,7 @@ global.startGame = function (activeSession)
     var event1 = script.createEvent("TouchEndEvent");
     event1.bind(function(eventData)
     {
-        if(move == true && able_start == true)
+        if(move && (able_start || isCatched))
         {
             /*            
             var posTouch = eventData.getTouchPosition().x;
@@ -165,7 +165,7 @@ global.startGame = function (activeSession)
             }
          */
             able_start = false;
-
+            isCatched = false
             script.animFrisbee.stop("Idle");
             script.animFrisbee.setWeight("start", 1.0);
             script.animFrisbee.start("start", 0, 1); 
@@ -217,14 +217,16 @@ global.startGame = function (activeSession)
             script.animFrisbee.setWeight("catchFalse", 1.0);
             script.animFrisbee.start("catchFalse", 0, 1);         
         }
+        script.sphere.enabled = false
     }
     global.scBehaviorSystem.addCustomTriggerResponse("end_catch1", end_catch1);
     
     function catch_True()
     {
         global.REPOSITORY.increaseCatchScore()
-        resultScreen()
-        
+        script.animFrisbee.setWeight("Idle", 1.0);
+        script.animFrisbee.start("Idle", 0, -1); 
+        isCatched = true
     }
     global.scBehaviorSystem.addCustomTriggerResponse("end_catchTrue", catch_True);
     

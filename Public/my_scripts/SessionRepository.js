@@ -109,9 +109,7 @@ var SessionRepository = /** @class */ (function () {
             return null;
         }
     }
-    SessionRepository.prototype.takeSnap = function() {
-        global.snapRecordingSystem.captureSnapImage() 
-    }
+
     return SessionRepository
 }())
 

@@ -3,7 +3,7 @@
     "document_id": "-7AehSwJ3ITEozqh-r0l",
     "original_document_id": "-emgiKlBTWicLGDfCTy6",
     "version": "2",
-    "lastChanged": "1568718303915",
+    "lastChanged": "1568722479058",
     "preview": "icon.png",
     "isReadOnly": "false",
     "studioVersion": {
@@ -74,9 +74,6 @@
                     [
                         "Materials",
                         "tap"
-                    ],
-                    [
-                        "Meshes"
                     ],
                     [
                         "Meshes",
@@ -892,9 +889,6 @@
                         "Models",
                         "hand_05",
                         "hand_05"
-                    ],
-                    [
-                        "Resources"
                     ],
                     [
                         "Resources",
@@ -4186,20 +4180,6 @@
                     "subtype": "0"
                 },
                 {
-                    "resId": "1304",
-                    "uid": "1568293559664361:118660",
-                    "name": "\/Resources\/Resource1296",
-                    "sourceFilePath": "",
-                    "additionalProperties": {
-                        "pass_source": [
-                            "\/Users\/steve.marton\/Snapchat\/Dev\/Studio3D\/Resources\/Studio3DResources.bundle\/shaders\/flat.glsl"
-                        ]
-                    },
-                    "flags": "3",
-                    "type": "2",
-                    "subtype": "0"
-                },
-                {
                     "resId": "1307",
                     "uid": "1568360797604333:59856",
                     "name": "Face Texture",
@@ -4464,6 +4444,30 @@
                     "flags": "3",
                     "type": "1",
                     "subtype": "0"
+                },
+                {
+                    "resId": "1332",
+                    "uid": "1568719453694467:129272",
+                    "name": "\/Resources\/Resource1332.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "3",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "1333",
+                    "uid": "1568719453764533:129282",
+                    "name": "\/Resources\/Resource1333",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "\/Users\/steve.marton\/Snapchat\/Dev\/Studio3D\/Resources\/Studio3DResources.bundle\/shaders\/flat.glsl"
+                        ]
+                    },
+                    "flags": "3",
+                    "type": "2",
+                    "subtype": "0"
                 }
             ]
         },
@@ -4597,6 +4601,1819 @@
         }
     },
     "controller": {
+        "InspectorController": {
+            "selection": {
+                "objects": [
+                    "1568208534594373:774031"
+                ]
+            }
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": [
+                {
+                    "k": "1565100826868832:4922",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1565100826868276:17512"
+                        },
+                        {
+                            "k": [
+                                "Bone001"
+                            ],
+                            "v": "1565100826868376:17518"
+                        },
+                        {
+                            "k": [
+                                "Component.AnimationMixer"
+                            ],
+                            "v": "1565100826868359:17516"
+                        },
+                        {
+                            "k": [
+                                "Component.Skin"
+                            ],
+                            "v": "1565100826868318:17514"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001"
+                            ],
+                            "v": "1565100826868383:17520"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868404:17524"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565100826868386:17522"
+                        },
+                        {
+                            "k": [
+                                "hand"
+                            ],
+                            "v": "1565100826868412:17526"
+                        },
+                        {
+                            "k": [
+                                "hand",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868428:17530"
+                        },
+                        {
+                            "k": [
+                                "hand",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565100826868416:17528"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00"
+                            ],
+                            "v": "1565100826868435:17532"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868438:17534"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01"
+                            ],
+                            "v": "1565100826868443:17536"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868445:17538"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02"
+                            ],
+                            "v": "1565100826868450:17540"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868453:17542"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03"
+                            ],
+                            "v": "1565100826868458:17544"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868461:17546"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04"
+                            ],
+                            "v": "1565100826868467:17548"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868469:17550"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "hand_bone_05"
+                            ],
+                            "v": "1565100826868474:17552"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "hand_bone_05",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868477:17554"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06"
+                            ],
+                            "v": "1565100826868483:17556"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868486:17558"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07"
+                            ],
+                            "v": "1565100826868490:17560"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868493:17562"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "hand_bone_08"
+                            ],
+                            "v": "1565100826868498:17564"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "hand_bone_08",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868501:17566"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09"
+                            ],
+                            "v": "1565100826868507:17568"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868509:17570"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10"
+                            ],
+                            "v": "1565100826868514:17572"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868516:17574"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "hand_bone_11"
+                            ],
+                            "v": "1565100826868521:17576"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "hand_bone_11",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868523:17578"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12"
+                            ],
+                            "v": "1565100826868529:17580"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868532:17582"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13"
+                            ],
+                            "v": "1565100826868536:17584"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868539:17586"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "hand_bone_14"
+                            ],
+                            "v": "1565100826868545:17588"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "hand_bone_14",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868548:17590"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15"
+                            ],
+                            "v": "1565100826868554:17592"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868556:17594"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16"
+                            ],
+                            "v": "1565100826868561:17596"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868563:17598"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "hand_bone_17"
+                            ],
+                            "v": "1565100826868568:17600"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "hand_bone_17",
+                                "Component.Animation"
+                            ],
+                            "v": "1565100826868570:17602"
+                        }
+                    ]
+                },
+                {
+                    "k": "1565649535209486:3621",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1565649535208503:15058"
+                        },
+                        {
+                            "k": [
+                                "Bone001"
+                            ],
+                            "v": "1565649535208597:15064"
+                        },
+                        {
+                            "k": [
+                                "Component.AnimationMixer"
+                            ],
+                            "v": "1565649535208557:15062"
+                        },
+                        {
+                            "k": [
+                                "Component.Skin"
+                            ],
+                            "v": "1565649535208516:15060"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001"
+                            ],
+                            "v": "1565649535208608:15066"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208630:15070"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565649535208612:15068"
+                        },
+                        {
+                            "k": [
+                                "Sphere001"
+                            ],
+                            "v": "1565649535209163:15150"
+                        },
+                        {
+                            "k": [
+                                "Sphere001",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535209196:15154"
+                        },
+                        {
+                            "k": [
+                                "Sphere001",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565649535209170:15152"
+                        },
+                        {
+                            "k": [
+                                "hand"
+                            ],
+                            "v": "1565649535208639:15072"
+                        },
+                        {
+                            "k": [
+                                "hand",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208667:15076"
+                        },
+                        {
+                            "k": [
+                                "hand",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565649535208642:15074"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00"
+                            ],
+                            "v": "1565649535208684:15078"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208693:15080"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01"
+                            ],
+                            "v": "1565649535208707:15082"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208716:15084"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02"
+                            ],
+                            "v": "1565649535208728:15086"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208735:15088"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03"
+                            ],
+                            "v": "1565649535208750:15090"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208774:15092"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04"
+                            ],
+                            "v": "1565649535208784:15094"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208789:15096"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "hand_bone_05"
+                            ],
+                            "v": "1565649535208799:15098"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "hand_bone_05",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208804:15100"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06"
+                            ],
+                            "v": "1565649535208816:15102"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208843:15104"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07"
+                            ],
+                            "v": "1565649535208921:15106"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208931:15108"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "hand_bone_08"
+                            ],
+                            "v": "1565649535208943:15110"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "hand_bone_08",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208951:15112"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09"
+                            ],
+                            "v": "1565649535208970:15114"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208975:15116"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10"
+                            ],
+                            "v": "1565649535208983:15118"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208987:15120"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "hand_bone_11"
+                            ],
+                            "v": "1565649535208994:15122"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "hand_bone_11",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535208997:15124"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12"
+                            ],
+                            "v": "1565649535209005:15126"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535209008:15128"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13"
+                            ],
+                            "v": "1565649535209021:15130"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535209029:15132"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "hand_bone_14"
+                            ],
+                            "v": "1565649535209039:15134"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "hand_bone_14",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535209049:15136"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15"
+                            ],
+                            "v": "1565649535209111:15138"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535209119:15140"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16"
+                            ],
+                            "v": "1565649535209127:15142"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535209131:15144"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "hand_bone_17"
+                            ],
+                            "v": "1565649535209137:15146"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "hand_bone_17",
+                                "Component.Animation"
+                            ],
+                            "v": "1565649535209142:15148"
+                        }
+                    ]
+                },
+                {
+                    "k": "1565735047050843:4669",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1565735047050228:19874"
+                        },
+                        {
+                            "k": [
+                                "Bone001"
+                            ],
+                            "v": "1565735047050332:19880"
+                        },
+                        {
+                            "k": [
+                                "Bone001",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050336:19882"
+                        },
+                        {
+                            "k": [
+                                "Component.AnimationMixer"
+                            ],
+                            "v": "1565735047050315:19878"
+                        },
+                        {
+                            "k": [
+                                "Component.Skin"
+                            ],
+                            "v": "1565735047050238:19876"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001"
+                            ],
+                            "v": "1565735047050347:19884"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050367:19888"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565735047050350:19886"
+                        },
+                        {
+                            "k": [
+                                "Sphere001"
+                            ],
+                            "v": "1565735047050562:19968"
+                        },
+                        {
+                            "k": [
+                                "Sphere001",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050574:19972"
+                        },
+                        {
+                            "k": [
+                                "Sphere001",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565735047050565:19970"
+                        },
+                        {
+                            "k": [
+                                "hand"
+                            ],
+                            "v": "1565735047050374:19890"
+                        },
+                        {
+                            "k": [
+                                "hand",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050391:19894"
+                        },
+                        {
+                            "k": [
+                                "hand",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565735047050379:19892"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00"
+                            ],
+                            "v": "1565735047050397:19896"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050400:19898"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01"
+                            ],
+                            "v": "1565735047050405:19900"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050408:19902"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02"
+                            ],
+                            "v": "1565735047050413:19904"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050417:19906"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03"
+                            ],
+                            "v": "1565735047050422:19908"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050425:19910"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04"
+                            ],
+                            "v": "1565735047050431:19912"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050434:19914"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "hand_bone_05"
+                            ],
+                            "v": "1565735047050439:19916"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "hand_bone_05",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050442:19918"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06"
+                            ],
+                            "v": "1565735047050449:19920"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050452:19922"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07"
+                            ],
+                            "v": "1565735047050457:19924"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050460:19926"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "hand_bone_08"
+                            ],
+                            "v": "1565735047050465:19928"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "hand_bone_08",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050468:19930"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09"
+                            ],
+                            "v": "1565735047050475:19932"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050478:19934"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10"
+                            ],
+                            "v": "1565735047050483:19936"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050487:19938"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "hand_bone_11"
+                            ],
+                            "v": "1565735047050492:19940"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "hand_bone_11",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050496:19942"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12"
+                            ],
+                            "v": "1565735047050510:19944"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050513:19946"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13"
+                            ],
+                            "v": "1565735047050518:19948"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050521:19950"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "hand_bone_14"
+                            ],
+                            "v": "1565735047050525:19952"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "hand_bone_14",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050528:19954"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15"
+                            ],
+                            "v": "1565735047050535:19956"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050538:19958"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16"
+                            ],
+                            "v": "1565735047050543:19960"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050546:19962"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "hand_bone_17"
+                            ],
+                            "v": "1565735047050551:19964"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "hand_bone_17",
+                                "Component.Animation"
+                            ],
+                            "v": "1565735047050554:19966"
+                        }
+                    ]
+                },
+                {
+                    "k": "1565783817404068:64723",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1565783817403538:398080"
+                        },
+                        {
+                            "k": [
+                                "Bone001"
+                            ],
+                            "v": "1565783817403596:398086"
+                        },
+                        {
+                            "k": [
+                                "Bone001",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403600:398088"
+                        },
+                        {
+                            "k": [
+                                "Component.AnimationMixer"
+                            ],
+                            "v": "1565783817403578:398084"
+                        },
+                        {
+                            "k": [
+                                "Component.Skin"
+                            ],
+                            "v": "1565783817403548:398082"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001"
+                            ],
+                            "v": "1565783817403610:398090"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403632:398094"
+                        },
+                        {
+                            "k": [
+                                "Cylinder001",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565783817403614:398092"
+                        },
+                        {
+                            "k": [
+                                "Sphere001"
+                            ],
+                            "v": "1565783817403821:398174"
+                        },
+                        {
+                            "k": [
+                                "Sphere001",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403833:398178"
+                        },
+                        {
+                            "k": [
+                                "Sphere001",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565783817403824:398176"
+                        },
+                        {
+                            "k": [
+                                "hand"
+                            ],
+                            "v": "1565783817403639:398096"
+                        },
+                        {
+                            "k": [
+                                "hand",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403656:398100"
+                        },
+                        {
+                            "k": [
+                                "hand",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1565783817403644:398098"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00"
+                            ],
+                            "v": "1565783817403661:398102"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403666:398104"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01"
+                            ],
+                            "v": "1565783817403673:398106"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403676:398108"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02"
+                            ],
+                            "v": "1565783817403681:398110"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403684:398112"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03"
+                            ],
+                            "v": "1565783817403688:398114"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403691:398116"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04"
+                            ],
+                            "v": "1565783817403696:398118"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403699:398120"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "hand_bone_05"
+                            ],
+                            "v": "1565783817403704:398122"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_03",
+                                "hand_bone_04",
+                                "hand_bone_05",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403708:398124"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06"
+                            ],
+                            "v": "1565783817403715:398126"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403718:398128"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07"
+                            ],
+                            "v": "1565783817403722:398130"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403726:398132"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "hand_bone_08"
+                            ],
+                            "v": "1565783817403732:398134"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_06",
+                                "hand_bone_07",
+                                "hand_bone_08",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403735:398136"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09"
+                            ],
+                            "v": "1565783817403741:398138"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403745:398140"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10"
+                            ],
+                            "v": "1565783817403750:398142"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403753:398144"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "hand_bone_11"
+                            ],
+                            "v": "1565783817403758:398146"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_09",
+                                "hand_bone_10",
+                                "hand_bone_11",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403761:398148"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12"
+                            ],
+                            "v": "1565783817403768:398150"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403771:398152"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13"
+                            ],
+                            "v": "1565783817403776:398154"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403781:398156"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "hand_bone_14"
+                            ],
+                            "v": "1565783817403785:398158"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_12",
+                                "hand_bone_13",
+                                "hand_bone_14",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403788:398160"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15"
+                            ],
+                            "v": "1565783817403795:398162"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403798:398164"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16"
+                            ],
+                            "v": "1565783817403803:398166"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403805:398168"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "hand_bone_17"
+                            ],
+                            "v": "1565783817403810:398170"
+                        },
+                        {
+                            "k": [
+                                "hand_bone_00",
+                                "hand_bone_01",
+                                "hand_bone_02",
+                                "hand_bone_15",
+                                "hand_bone_16",
+                                "hand_bone_17",
+                                "Component.Animation"
+                            ],
+                            "v": "1565783817403812:398172"
+                        }
+                    ]
+                }
+            ]
+        },
         "ResourceController": {
             "tree": {
                 "name": "Root",
@@ -6433,1825 +8250,6 @@
                 {
                     "id": "1327",
                     "path": "Meshes\/image (1).png"
-                }
-            ]
-        },
-        "InspectorController": {
-            "selection": {
-                "resources": [
-                    {
-                        "uid": "1565101570730059:54816",
-                        "path_list": [
-                            "my_scripts",
-                            "Script"
-                        ]
-                    }
-                ]
-            }
-        },
-        "EffectsController": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": "",
-            "10": "",
-            "11": "",
-            "12": "",
-            "13": "",
-            "14": "",
-            "15": "",
-            "16": ""
-        },
-        "ObjectPrefabController": {
-            "state": {
-                "objectToInfo": ""
-            },
-            "importInfo": [
-                {
-                    "k": "1565100826868832:4922",
-                    "v": [
-                        {
-                            "k": "",
-                            "v": "1565100826868276:17512"
-                        },
-                        {
-                            "k": [
-                                "Bone001"
-                            ],
-                            "v": "1565100826868376:17518"
-                        },
-                        {
-                            "k": [
-                                "Component.AnimationMixer"
-                            ],
-                            "v": "1565100826868359:17516"
-                        },
-                        {
-                            "k": [
-                                "Component.Skin"
-                            ],
-                            "v": "1565100826868318:17514"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001"
-                            ],
-                            "v": "1565100826868383:17520"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868404:17524"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565100826868386:17522"
-                        },
-                        {
-                            "k": [
-                                "hand"
-                            ],
-                            "v": "1565100826868412:17526"
-                        },
-                        {
-                            "k": [
-                                "hand",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868428:17530"
-                        },
-                        {
-                            "k": [
-                                "hand",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565100826868416:17528"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00"
-                            ],
-                            "v": "1565100826868435:17532"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868438:17534"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01"
-                            ],
-                            "v": "1565100826868443:17536"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868445:17538"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02"
-                            ],
-                            "v": "1565100826868450:17540"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868453:17542"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03"
-                            ],
-                            "v": "1565100826868458:17544"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868461:17546"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04"
-                            ],
-                            "v": "1565100826868467:17548"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868469:17550"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "hand_bone_05"
-                            ],
-                            "v": "1565100826868474:17552"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "hand_bone_05",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868477:17554"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06"
-                            ],
-                            "v": "1565100826868483:17556"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868486:17558"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07"
-                            ],
-                            "v": "1565100826868490:17560"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868493:17562"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "hand_bone_08"
-                            ],
-                            "v": "1565100826868498:17564"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "hand_bone_08",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868501:17566"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09"
-                            ],
-                            "v": "1565100826868507:17568"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868509:17570"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10"
-                            ],
-                            "v": "1565100826868514:17572"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868516:17574"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "hand_bone_11"
-                            ],
-                            "v": "1565100826868521:17576"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "hand_bone_11",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868523:17578"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12"
-                            ],
-                            "v": "1565100826868529:17580"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868532:17582"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13"
-                            ],
-                            "v": "1565100826868536:17584"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868539:17586"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "hand_bone_14"
-                            ],
-                            "v": "1565100826868545:17588"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "hand_bone_14",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868548:17590"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15"
-                            ],
-                            "v": "1565100826868554:17592"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868556:17594"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16"
-                            ],
-                            "v": "1565100826868561:17596"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868563:17598"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "hand_bone_17"
-                            ],
-                            "v": "1565100826868568:17600"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "hand_bone_17",
-                                "Component.Animation"
-                            ],
-                            "v": "1565100826868570:17602"
-                        }
-                    ]
-                },
-                {
-                    "k": "1565649535209486:3621",
-                    "v": [
-                        {
-                            "k": "",
-                            "v": "1565649535208503:15058"
-                        },
-                        {
-                            "k": [
-                                "Bone001"
-                            ],
-                            "v": "1565649535208597:15064"
-                        },
-                        {
-                            "k": [
-                                "Component.AnimationMixer"
-                            ],
-                            "v": "1565649535208557:15062"
-                        },
-                        {
-                            "k": [
-                                "Component.Skin"
-                            ],
-                            "v": "1565649535208516:15060"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001"
-                            ],
-                            "v": "1565649535208608:15066"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208630:15070"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565649535208612:15068"
-                        },
-                        {
-                            "k": [
-                                "Sphere001"
-                            ],
-                            "v": "1565649535209163:15150"
-                        },
-                        {
-                            "k": [
-                                "Sphere001",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535209196:15154"
-                        },
-                        {
-                            "k": [
-                                "Sphere001",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565649535209170:15152"
-                        },
-                        {
-                            "k": [
-                                "hand"
-                            ],
-                            "v": "1565649535208639:15072"
-                        },
-                        {
-                            "k": [
-                                "hand",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208667:15076"
-                        },
-                        {
-                            "k": [
-                                "hand",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565649535208642:15074"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00"
-                            ],
-                            "v": "1565649535208684:15078"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208693:15080"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01"
-                            ],
-                            "v": "1565649535208707:15082"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208716:15084"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02"
-                            ],
-                            "v": "1565649535208728:15086"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208735:15088"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03"
-                            ],
-                            "v": "1565649535208750:15090"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208774:15092"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04"
-                            ],
-                            "v": "1565649535208784:15094"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208789:15096"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "hand_bone_05"
-                            ],
-                            "v": "1565649535208799:15098"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "hand_bone_05",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208804:15100"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06"
-                            ],
-                            "v": "1565649535208816:15102"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208843:15104"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07"
-                            ],
-                            "v": "1565649535208921:15106"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208931:15108"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "hand_bone_08"
-                            ],
-                            "v": "1565649535208943:15110"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "hand_bone_08",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208951:15112"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09"
-                            ],
-                            "v": "1565649535208970:15114"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208975:15116"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10"
-                            ],
-                            "v": "1565649535208983:15118"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208987:15120"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "hand_bone_11"
-                            ],
-                            "v": "1565649535208994:15122"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "hand_bone_11",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535208997:15124"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12"
-                            ],
-                            "v": "1565649535209005:15126"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535209008:15128"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13"
-                            ],
-                            "v": "1565649535209021:15130"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535209029:15132"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "hand_bone_14"
-                            ],
-                            "v": "1565649535209039:15134"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "hand_bone_14",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535209049:15136"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15"
-                            ],
-                            "v": "1565649535209111:15138"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535209119:15140"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16"
-                            ],
-                            "v": "1565649535209127:15142"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535209131:15144"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "hand_bone_17"
-                            ],
-                            "v": "1565649535209137:15146"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "hand_bone_17",
-                                "Component.Animation"
-                            ],
-                            "v": "1565649535209142:15148"
-                        }
-                    ]
-                },
-                {
-                    "k": "1565735047050843:4669",
-                    "v": [
-                        {
-                            "k": "",
-                            "v": "1565735047050228:19874"
-                        },
-                        {
-                            "k": [
-                                "Bone001"
-                            ],
-                            "v": "1565735047050332:19880"
-                        },
-                        {
-                            "k": [
-                                "Bone001",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050336:19882"
-                        },
-                        {
-                            "k": [
-                                "Component.AnimationMixer"
-                            ],
-                            "v": "1565735047050315:19878"
-                        },
-                        {
-                            "k": [
-                                "Component.Skin"
-                            ],
-                            "v": "1565735047050238:19876"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001"
-                            ],
-                            "v": "1565735047050347:19884"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050367:19888"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565735047050350:19886"
-                        },
-                        {
-                            "k": [
-                                "Sphere001"
-                            ],
-                            "v": "1565735047050562:19968"
-                        },
-                        {
-                            "k": [
-                                "Sphere001",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050574:19972"
-                        },
-                        {
-                            "k": [
-                                "Sphere001",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565735047050565:19970"
-                        },
-                        {
-                            "k": [
-                                "hand"
-                            ],
-                            "v": "1565735047050374:19890"
-                        },
-                        {
-                            "k": [
-                                "hand",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050391:19894"
-                        },
-                        {
-                            "k": [
-                                "hand",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565735047050379:19892"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00"
-                            ],
-                            "v": "1565735047050397:19896"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050400:19898"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01"
-                            ],
-                            "v": "1565735047050405:19900"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050408:19902"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02"
-                            ],
-                            "v": "1565735047050413:19904"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050417:19906"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03"
-                            ],
-                            "v": "1565735047050422:19908"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050425:19910"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04"
-                            ],
-                            "v": "1565735047050431:19912"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050434:19914"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "hand_bone_05"
-                            ],
-                            "v": "1565735047050439:19916"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "hand_bone_05",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050442:19918"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06"
-                            ],
-                            "v": "1565735047050449:19920"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050452:19922"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07"
-                            ],
-                            "v": "1565735047050457:19924"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050460:19926"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "hand_bone_08"
-                            ],
-                            "v": "1565735047050465:19928"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "hand_bone_08",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050468:19930"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09"
-                            ],
-                            "v": "1565735047050475:19932"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050478:19934"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10"
-                            ],
-                            "v": "1565735047050483:19936"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050487:19938"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "hand_bone_11"
-                            ],
-                            "v": "1565735047050492:19940"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "hand_bone_11",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050496:19942"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12"
-                            ],
-                            "v": "1565735047050510:19944"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050513:19946"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13"
-                            ],
-                            "v": "1565735047050518:19948"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050521:19950"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "hand_bone_14"
-                            ],
-                            "v": "1565735047050525:19952"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "hand_bone_14",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050528:19954"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15"
-                            ],
-                            "v": "1565735047050535:19956"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050538:19958"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16"
-                            ],
-                            "v": "1565735047050543:19960"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050546:19962"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "hand_bone_17"
-                            ],
-                            "v": "1565735047050551:19964"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "hand_bone_17",
-                                "Component.Animation"
-                            ],
-                            "v": "1565735047050554:19966"
-                        }
-                    ]
-                },
-                {
-                    "k": "1565783817404068:64723",
-                    "v": [
-                        {
-                            "k": "",
-                            "v": "1565783817403538:398080"
-                        },
-                        {
-                            "k": [
-                                "Bone001"
-                            ],
-                            "v": "1565783817403596:398086"
-                        },
-                        {
-                            "k": [
-                                "Bone001",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403600:398088"
-                        },
-                        {
-                            "k": [
-                                "Component.AnimationMixer"
-                            ],
-                            "v": "1565783817403578:398084"
-                        },
-                        {
-                            "k": [
-                                "Component.Skin"
-                            ],
-                            "v": "1565783817403548:398082"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001"
-                            ],
-                            "v": "1565783817403610:398090"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403632:398094"
-                        },
-                        {
-                            "k": [
-                                "Cylinder001",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565783817403614:398092"
-                        },
-                        {
-                            "k": [
-                                "Sphere001"
-                            ],
-                            "v": "1565783817403821:398174"
-                        },
-                        {
-                            "k": [
-                                "Sphere001",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403833:398178"
-                        },
-                        {
-                            "k": [
-                                "Sphere001",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565783817403824:398176"
-                        },
-                        {
-                            "k": [
-                                "hand"
-                            ],
-                            "v": "1565783817403639:398096"
-                        },
-                        {
-                            "k": [
-                                "hand",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403656:398100"
-                        },
-                        {
-                            "k": [
-                                "hand",
-                                "Component.MeshVisual"
-                            ],
-                            "v": "1565783817403644:398098"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00"
-                            ],
-                            "v": "1565783817403661:398102"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403666:398104"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01"
-                            ],
-                            "v": "1565783817403673:398106"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403676:398108"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02"
-                            ],
-                            "v": "1565783817403681:398110"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403684:398112"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03"
-                            ],
-                            "v": "1565783817403688:398114"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403691:398116"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04"
-                            ],
-                            "v": "1565783817403696:398118"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403699:398120"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "hand_bone_05"
-                            ],
-                            "v": "1565783817403704:398122"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_03",
-                                "hand_bone_04",
-                                "hand_bone_05",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403708:398124"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06"
-                            ],
-                            "v": "1565783817403715:398126"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403718:398128"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07"
-                            ],
-                            "v": "1565783817403722:398130"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403726:398132"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "hand_bone_08"
-                            ],
-                            "v": "1565783817403732:398134"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_06",
-                                "hand_bone_07",
-                                "hand_bone_08",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403735:398136"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09"
-                            ],
-                            "v": "1565783817403741:398138"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403745:398140"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10"
-                            ],
-                            "v": "1565783817403750:398142"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403753:398144"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "hand_bone_11"
-                            ],
-                            "v": "1565783817403758:398146"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_09",
-                                "hand_bone_10",
-                                "hand_bone_11",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403761:398148"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12"
-                            ],
-                            "v": "1565783817403768:398150"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403771:398152"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13"
-                            ],
-                            "v": "1565783817403776:398154"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403781:398156"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "hand_bone_14"
-                            ],
-                            "v": "1565783817403785:398158"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_12",
-                                "hand_bone_13",
-                                "hand_bone_14",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403788:398160"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15"
-                            ],
-                            "v": "1565783817403795:398162"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403798:398164"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16"
-                            ],
-                            "v": "1565783817403803:398166"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403805:398168"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "hand_bone_17"
-                            ],
-                            "v": "1565783817403810:398170"
-                        },
-                        {
-                            "k": [
-                                "hand_bone_00",
-                                "hand_bone_01",
-                                "hand_bone_02",
-                                "hand_bone_15",
-                                "hand_bone_16",
-                                "hand_bone_17",
-                                "Component.Animation"
-                            ],
-                            "v": "1565783817403812:398172"
-                        }
-                    ]
                 }
             ]
         }

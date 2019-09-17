@@ -1,5 +1,6 @@
 // @input Component.Label label
 
+//@input Asset.Texture text
 
 var GlobalRepository = /** @class */ (function () {
     var CATCH_KEY = "catchScore";
@@ -21,7 +22,7 @@ var GlobalRepository = /** @class */ (function () {
     function GlobalRepository() {
         store = global.persistentStorageSystem.store;
         currentPlayerIndex = 0;
-        
+        //store.clear()
         
         init();
     }
@@ -133,14 +134,17 @@ var GlobalRepository = /** @class */ (function () {
     }
     GlobalRepository.prototype.getPlayerPhotoAsset = function () {
         
+        return script.text;
     }
-    
+
     function info(){
         if(script.label){
             script.label.text = "CPid: " + currentPlayerIndex + " Ctch:" + currentPlayerCatchScore + " Thrw:" + currentPlayerThrowScore;
         }
     }
-    
+    GlobalRepository.prototype.final = function(){
+         
+    }
     return GlobalRepository
 }())
 
