@@ -3,7 +3,7 @@
     "document_id": "-7AehSwJ3ITEozqh-r0l",
     "original_document_id": "-emgiKlBTWicLGDfCTy6",
     "version": "2",
-    "lastChanged": "1568726243463",
+    "lastChanged": "1568726432292",
     "preview": "icon.png",
     "isReadOnly": "false",
     "studioVersion": {
@@ -4667,7 +4667,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1568108818606786:1226626"
+                    "1568109786889889:1551927"
                 ]
             }
         },
