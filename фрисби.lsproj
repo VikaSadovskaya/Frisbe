@@ -3,7 +3,7 @@
     "document_id": "-7AehSwJ3ITEozqh-r0l",
     "original_document_id": "-emgiKlBTWicLGDfCTy6",
     "version": "2",
-    "lastChanged": "1568722479058",
+    "lastChanged": "1568726243463",
     "preview": "icon.png",
     "isReadOnly": "false",
     "studioVersion": {
@@ -31,9 +31,6 @@
                     ],
                     [
                         "Cylinder001"
-                    ],
-                    [
-                        "Materials"
                     ],
                     [
                         "Materials",
@@ -76,6 +73,13 @@
                         "tap"
                     ],
                     [
+                        "Meshes"
+                    ],
+                    [
+                        "Meshes",
+                        "AvenirNext-Heavy"
+                    ],
+                    [
                         "Meshes",
                         "Box"
                     ],
@@ -90,6 +94,10 @@
                     [
                         "Meshes",
                         "circle_plate"
+                    ],
+                    [
+                        "Meshes",
+                        "icon_freesbi"
                     ],
                     [
                         "Meshes",
@@ -1038,6 +1046,10 @@
                     ],
                     [
                         "Textures",
+                        "AvenirNext-Heavy"
+                    ],
+                    [
+                        "Textures",
                         "CameraL Output"
                     ],
                     [
@@ -1330,9 +1342,6 @@
                     "1565773482372150:42438",
                     "1565783817405451:398310",
                     "1565783817414981:398440",
-                    "1568108818606321:1226595",
-                    "1568108818606350:1226597",
-                    "1568108818606480:1226601",
                     "1568108818607005:1226647",
                     "1568108818607077:1226651",
                     "1568108818607390:1226683",
@@ -4468,6 +4477,60 @@
                     "flags": "3",
                     "type": "2",
                     "subtype": "0"
+                },
+                {
+                    "resId": "1334",
+                    "uid": "1568725603098248:93160",
+                    "name": "\/Resources\/Resource1334.png",
+                    "sourceFilePath": "C:\/Users\/admin\/Pictures\/icon_freesbi.png",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "1337",
+                    "uid": "1568725700874865:103865",
+                    "name": "\/Resources\/Resource1337",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            ""
+                        ]
+                    },
+                    "flags": "3",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "1338",
+                    "uid": "1568725700877616:103875",
+                    "name": "Text",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "2",
+                    "type": "1",
+                    "subtype": "8"
+                },
+                {
+                    "resId": "1339",
+                    "uid": "1568725913929157:120639",
+                    "name": "\/Resources\/Resource1339.ttf",
+                    "sourceFilePath": "C:\/Users\/admin\/Downloads\/AvenirNext-Heavy.ttf",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "13",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "1340",
+                    "uid": "1568726025303056:120896",
+                    "name": "\/Resources\/Resource1340.ttf",
+                    "sourceFilePath": "C:\/Users\/admin\/Downloads\/AvenirNext-Heavy.ttf",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "13",
+                    "subtype": "0"
                 }
             ]
         },
@@ -4604,7 +4667,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1568208534594373:774031"
+                    "1568108818606786:1226626"
                 ]
             }
         },
@@ -6576,6 +6639,11 @@
                                 "name": "Face Texture_2",
                                 "resourceId": "1307",
                                 "extension": ""
+                            },
+                            {
+                                "name": "AvenirNext-Heavy",
+                                "resourceId": "1340",
+                                "extension": "ttf"
                             }
                         ]
                     },
@@ -6627,6 +6695,16 @@
                                 "name": "image (1)",
                                 "resourceId": "1327",
                                 "extension": "png"
+                            },
+                            {
+                                "name": "icon_freesbi",
+                                "resourceId": "1334",
+                                "extension": "png"
+                            },
+                            {
+                                "name": "AvenirNext-Heavy",
+                                "resourceId": "1339",
+                                "extension": "ttf"
                             }
                         ]
                     },
@@ -8250,6 +8328,18 @@
                 {
                     "id": "1327",
                     "path": "Meshes\/image (1).png"
+                },
+                {
+                    "id": "1334",
+                    "path": "Meshes\/icon_freesbi.png"
+                },
+                {
+                    "id": "1339",
+                    "path": "Meshes\/AvenirNext-Heavy.ttf"
+                },
+                {
+                    "id": "1340",
+                    "path": "Textures\/AvenirNext-Heavy.ttf"
                 }
             ]
         }
